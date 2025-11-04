@@ -1,73 +1,81 @@
-# Nile-GDSC Ai Team Application Questions Repository
+# Nile-GDSC Application Questions Repository
 
-This is the repository for the Nile GDSC Ai team application entry. Please make sure to read below before proceeding.
+This is the repository for the Nile GDSC application entry. Please make sure to read below before proceeding.
 
 ## Overview
 
-This repository contains AI/ML tasks at three difficulty levels:
-
+This repository contains AI/ML and Data tasks at three difficulty levels:
 
 ### Novice Level
-Tasks designed for Novice to AI/ML, focusing on fundamental concepts and practical implementations.
+Tasks designed for beginners to AI/ML, focusing on fundamental concepts and practical implementations.
 
 ### Intermediate Level
 Tasks designed for those with foundational knowledge in AI/ML. Each domain contains 3 tasks covering core concepts.
 
 ### Pro Level
-Advanced tasks for experienced practitioners, featuring more complex challenges and real-world applications.
+Advanced tasks for experienced practitioners, featuring complex challenges and real-world applications.
 
-Both levels include tasks in three AI/ML domains:
-- **General Machine Learning** - supervised learning, unsupervised learning 
+All levels include tasks in seven domains:
 - **Computer Vision** - Image processing, object detection, and segmentation
 - **Deep Learning** - Neural networks, transfer learning, and regularization
 - **Natural Language Processing** - Text classification, NER, and text generation
+- **General Machine Learning** - Classification, regression, and clustering fundamentals
+- **Data Science** - Predictive modeling, feature engineering, and business analytics
+- **Data Visualization** - Interactive dashboards, multi-dimensional visualizations, and insights
+- **Data Analytics** - Statistical analysis, cohort analysis, and optimization
 
 ## Getting Started
 
-1. **Choose your level**: Navigate to either `Novice/`, `Intermediate/`, or `Pro/` folder
-2. **Select a domain**: Choose from General Machine Learning, Computer Vision, Deep Learning, or NLP
+1. **Choose your level**: Navigate to `Novice/`, `Intermediate/`, or `Pro/` folder
+2. **Select a domain**: Choose from any of the seven domains available
 3. **Read the instructions**: Review the `README.md` and `tasks.md` in your chosen folder
-4. **Complete the tasks**: Open `starter.ipynb` and complete **ANY ONE task** (or 2 if you want to challenge yourself)
+4. **Complete the tasks**: 
+   - **AI/ML domains** (CV, DL, NLP, General ML): Complete **ANY ONE task**
+   - **Data Science & Data Analytics**: Complete **ANY TWO tasks**
+   - **Data Visualization**: Complete **ALL THREE tasks**
 
 ## Repository Structure
 
 ```
 Nile-GDSC-intermediate-questions-repo/
 ├── README.md
+├── Novice/
+│   ├── Computer Vision/
+│   ├── Deep Learning/
+│   ├── Natural Language Processing/
+│   ├── General Machine Learning/
+│   ├── Data Science/
+│   ├── Data Visualization/
+│   └── Data Analytics/
 ├── Intermediate/
 │   ├── Computer Vision/
-│   │   ├── README.md
-│   │   ├── tasks.md
-│   │   └── starter.ipynb
 │   ├── Deep Learning/
-│   │   ├── README.md
-│   │   ├── tasks.md
-│   │   └── starter.ipynb
-│   └── Natural Language Processing/
-│       ├── README.md
-│       ├── tasks.md
-│       └── starter.ipynb
+│   ├── Natural Language Processing/
+│   ├── General Machine Learning/
+│   ├── Data Science/
+│   ├── Data Visualization/
+│   └── Data Analytics/
 └── Pro/
     ├── Computer Vision/
-    │   ├── README.md
-    │   ├── tasks.md
-    │   └── starter.ipynb
     ├── Deep Learning/
-    │   ├── README.md
-    │   ├── tasks.md
-    │   └── starter.ipynb
-    └── Natural Language Processing/
-        ├── README.md
-        ├── tasks.md
-        └── starter.ipynb
+    ├── Natural Language Processing/
+    ├── General Machine Learning/
+    ├── Data Science/
+    ├── Data Visualization/
+    └── Data Analytics/
+
+Each domain folder contains:
+├── README.md         (Instructions and overview)
+├── tasks.md         (Detailed task requirements)
+└── starter.ipynb    (Jupyter notebook template)
 ```
 
 ## Requirements
 
 - Python 3.x
 - Jupyter Notebook or JupyterLab
-- Common libraries: numpy, pandas, matplotlib
-- Domain-specific libraries (see each folder's README)
+- numpy (minimal library requirement)
+- Additional libraries as needed for your implementation (see each folder's README)
 
 ## Submission
 
@@ -76,7 +84,18 @@ Nile-GDSC-intermediate-questions-repo/
 1. **Fork this repository** to your GitHub account
 2. **Complete your chosen task(s)** in the appropriate `starter.ipynb` notebook
 3. **Commit and push** your changes to your forked repository
-4. **Submit a pull request** and title it as `submission: [Your Name] - [Domain]`
+4. **Submit a pull request** with the title: `submission: [Your Name] - [Level] - [Domain]`
+   - Example: `submission: John Doe - Intermediate - Computer Vision`
+
+### Evaluation Criteria
+
+Your submission will be evaluated based on:
+- **Code Quality**: Clean, readable, and well-documented code
+- **Completeness**: All required tasks completed as specified
+- **Implementation**: Correct and efficient solutions
+- **Creativity**: Innovative approaches and insights
+- **Documentation**: Clear explanations and comments
+
 ## Support
 
 If you have questions or need clarification:
